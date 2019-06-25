@@ -1,0 +1,26 @@
+body,html,h1,h2,h3,h4,h5,h6,p,span,img,input,form,ul,li,ol,dl,dt,dd,textarea,table,tr,td,th,a,hr{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+ul,ol{
+    list-style: none;
+}
+ul li,ol li{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
+body{
+    font-family: "微软雅黑","宋体",Arial;
+}
+html{
+    height: 100%;
+}
+img {
+    vertical-align:top;
+}

@@ -1,0 +1,118 @@
+body{
+    height: 100%;
+}
+#masKing{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    background:rgba(0, 0, 0, 0.5);
+    display: none;
+}
+#masKing .edit_window{
+    width: 500px;
+    height: 400px;
+    margin: 100px auto;
+    background: #eee;
+    padding: 20px;
+    opacity: 1;
+    border-radius: 10px;
+}
+.oneall{
+    height: 100%;
+}
+.container-fluid{
+    padding: 0;
+}
+.container-fluid nav{
+    border-radius: 0;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.container-fluid .navbar{
+    margin: 0;
+}
+.oneall .meun{
+    height: 100%;
+    background: #dedede;
+    padding: 0;
+}
+.oneall .meun ul li{
+    margin: 0;
+    border-bottom: 1px solid #eee;
+}
+.oneall .meun ul li a{
+    border-radius: 0;
+}
+.oneall .content{
+    height: 100%;
+    padding-top:30px;
+    overflow: auto;
+}
+.oneall .content .content_row{
+    display: flex;
+    justify-content: space-around;
+}
+.oneall .content .content_row div{
+    text-align: center;
+    line-height: 100px;
+    font-size:22px;
+    font-weight: 600px;
+    margin-top: 20px;
+}
+.oneall .content .content_row .cont_rowDiv1{
+    height: 100px;
+    background: orange;
+}
+.oneall .content .content_row .cont_rowDiv2{
+    height: 100px;
+    background: hotpink;
+}
+.oneall .content .content_row .cont_rowDiv3{
+    height: 100px;
+    background: skyblue;
+}
+.oneall .content .content_rowEcha{
+    display: flex;
+    justify-content: center;
+}
+.oneall .content .content_rowEcha #content_echart{
+    width: 600px;
+    height: 300px;
+    margin-top: 50px;
+}
+.oneall .content #contentDise .content_btn{
+    width: 100%;
+}
+.oneall .content #contentDise #content_fuText{
+    border: 1px solid #ccc;
+}
+.oneall .content #contentDise #content_fuText #content_fuText2{
+    width: 100%;
+    height: 200px;
+}
+.oneall .content #contentDisan .contentDisan_btn{
+    width: 100%;
+}
+.oneall .content #contentDier h3{
+    color: red;
+}
+.oneall .content #contentDier .double_btn{
+    display:flex;
+    justify-content: space-around;
+}
+.oneall .content #contentDier .thumbnail{
+    height: 430px;
+}
+.oneall .content #contentDier .thumbnail .caption .shopText{
+    height: 40px;
+    width: 100%;
+    white-space:newrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.oneall .content #contentDier .thumbnail img{
+    width: 100%;
+    height: 220px;
+}
